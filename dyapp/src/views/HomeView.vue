@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <HelloWorld 
-    title="강다연 | 실시간 성장중인 개발자"
+    title="👩🏻‍💻 강다연 | 실시간 성장중인 개발자"
     subTitle="📌 Contact & Channels"
     />
   </div>

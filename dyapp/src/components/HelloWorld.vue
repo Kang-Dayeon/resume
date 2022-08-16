@@ -20,7 +20,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .contentBox{
+  margin: 0 auto;
   padding: 30px 20px;
+  max-width: 600px;
+  text-align: left;
 }
 .title{
   font-size: 22px;
@@ -34,8 +37,7 @@ export default {
   color: #2c3e50;
 }
 .text-box{
-  margin: 10px auto;
-  max-width: 600px;
-  border-top: 1px solid #2c3e50;
+  margin-top: 10px;
+  border-top: 1px solid rgba(0,0,0,0.2);
 }
 </style>
