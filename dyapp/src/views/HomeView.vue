@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <HelloWorld 
-    title="Welcome to Your Vue.js App"
-    subTitle="Contact & Channels"
+    title="강다연 | 실시간 성장중인 개발자"
+    subTitle="📌 Contact & Channels"
     />
   </div>
 </template>
