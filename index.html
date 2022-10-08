@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dada Portfolio</title>
     <link href="./css/main.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 <body>
     <div class="wrap">
@@ -17,7 +23,15 @@
                 <div class="flow-box">Hello! welcome to my portfolio!! plese enjoy</div>
             </div>
         </section>
-        <section class="section section-introduce"></section>
+        <section class="section section-introduce" id="trigger">
+            <div class="scroll-wrap">
+                <div class="scroll-box" id="animate">
+                    <div class="scroll-text">안녕하세요! 실시간 성장중인 개발자 강다연입니다.</div>
+                    <div class="scroll-text">처음엔 호기심과 흥미로 시작했지만 비전공자의 껍질을 벗고, 프로 개발자로 성장하기 위해 책을 통해 Javascript 기본기와 CS에 관한 지식을 쌓으며 현재는 웹의 흐름을 이해하고, Javascript를 활용하여 웹 사이트에서 자주 사용되는 기능을 구현 할 수 있습니다.</div>
+                    <div class="scroll-text">기능뿐만이 아니라 UI도 컴포넌트화에 대한 흥미가 많아 퍼블리싱 작업을 진행 할 때에도 각 요소를 어느 페이지에서든 사용 가능하도록 만들기 위해 고민하며 화면을 그리고 있으며, 인터렉티브한 UI/UX를 만들고 싶은 욕심이 있어 사용자에게 재미있는 경험을 줄 수 있는 사이트를 만들기 위해 다양한 라이브러리를 습득하였습니다.</div>
+                </div>
+            </div>
+        </section>
         <section class="section section-project"></section>
     </div>
 </body>
