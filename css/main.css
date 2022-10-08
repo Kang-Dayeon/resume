@@ -28,9 +28,10 @@ a {
 }
 .section {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .section-intro {
+  height: 100vh;
   position: relative;
   background-color: #0477BF;
 }
