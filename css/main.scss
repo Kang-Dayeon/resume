@@ -22,49 +22,39 @@ a{
 .section{
     width: 100%;
     height: 100%;
+    background-color: #000000;
     &-intro{
         height: 100vh;
         position: relative;
-        background-color: #0477BF;
     }
     &-introduce{
-        // min-height: 150vh;
-        padding-top: 200px;
-        height: 8000px;
-        background-color: #000;
+        padding-bottom: 200px;
+        height: auto;
     }
     &-project{
         height: 100vh;
     }
 }
 .scroll{
-    // &-wrap{
-    //     // padding-top: 200px;
-    //     padding-bottom: 300px;
-    // }
-    // &-box{
-    //     margin: 0 auto;
-    //     padding: 15px;
-    //     max-width: 800px;
-    //     border: 2px solid red;
-    // }
+    &-wrap{
+        height: 2000px;
+    }
     &-text{
         position: sticky;
-        top: 45vh;
-        margin-top: 200px;
+        top: 40vh;
         padding: 0 200px;
         font-family: 'Jua', sans-serif;
-        font-size: 30px;
+        font-size: 40px;
         line-height: 1.5;
         color: transparent;
         background-clip: text;
         -webkit-background-clip:text;
         -webkit-text-fill-color: transparent;
         background-image: linear-gradient(90deg, rgba(25,20,84,1) 0%, rgba(105,9,121,1) 35%, rgba(0,212,255,1) 100%);
-        // opacity: 0;
+        opacity: 0;
         text-align: center;
         &:first-child{
-            margin-top: 0;
+            top: 45vh;
         }
     }
 }

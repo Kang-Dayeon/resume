@@ -30,39 +30,41 @@ a {
 .section {
   width: 100%;
   height: 100%;
+  background-color: #000000;
 }
 .section-intro {
   height: 100vh;
   position: relative;
-  background-color: #0477BF;
 }
 .section-introduce {
-  padding-top: 200px;
-  height: 8000px;
-  background-color: #000;
+  padding-bottom: 200px;
+  height: auto;
 }
 .section-project {
   height: 100vh;
 }
 
+.scroll-wrap {
+  height: 2000px;
+}
 .scroll-text {
   position: -webkit-sticky;
   position: sticky;
-  top: 45vh;
-  margin-top: 200px;
+  top: 40vh;
   padding: 0 200px;
   font-family: "Jua", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.5;
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(90deg, rgb(25, 20, 84) 0%, rgb(105, 9, 121) 35%, rgb(0, 212, 255) 100%);
+  opacity: 0;
   text-align: center;
 }
 .scroll-text:first-child {
-  margin-top: 0;
+  top: 45vh;
 }
 
 .profile {
