@@ -41,7 +41,7 @@ a {
   height: auto;
 }
 .section-project {
-  height: 100vh;
+  position: relative;
 }
 
 .scroll-wrap {
@@ -100,8 +100,26 @@ a {
           animation: flowText 20s linear infinite;
 }
 
-.trigger_01,
-.trigger_02,
-.trigger_03 {
-  color: #fff;
+.outer-wrap {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: absolute;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.slide {
+  border: 2px solid red;
+  width: 100vw;
+  height: 100vh;
 }/*# sourceMappingURL=main.css.map */
