@@ -32,7 +32,8 @@ a{
         height: auto;
     }
     &-project{
-        position: relative;
+        overflow: hidden;
+        height: 100vh;
     }
 }
 .scroll{
@@ -91,23 +92,45 @@ a{
     }
 }
 .outer-wrap{
+    display: flex;
+    flex-direction: column;
     width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    &::-webkit-scrollbar{
+        width: 1px;
+        height: 1px;
+    }
+    &::-webkit-scrollbar-button{
+        width: 1px;
+        height: 1px;
+    }
 }
-.wrap{
+.wrapper{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     width: 400vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
+    
 }
 .slide{
     border: 2px solid red;
     width: 100vw;
     height: 100vh;
+    &:nth-child(1){
+        background-color: cadetblue;
+    }
+    &:nth-child(2){
+        background-color: salmon;
+    }
+    &:nth-child(3){
+        background-color: seagreen;
+    }
+    &:nth-child(4){
+        background-color: peru;
+    }
 }
