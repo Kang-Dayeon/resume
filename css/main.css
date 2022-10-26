@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #000;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
 }
 
 @-webkit-keyframes flowText {
@@ -129,18 +135,44 @@ a {
 }
 
 .slide {
-  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  width: 400vw;
   height: 100vh;
 }
-.slide:nth-child(1) {
+.slide-list {
+  margin-left: 50px;
+  padding: 20px;
+  width: 600px;
+  height: auto;
   background-color: cadetblue;
 }
-.slide:nth-child(2) {
-  background-color: salmon;
+.slide-list:first-child {
+  margin-left: 0;
 }
-.slide:nth-child(3) {
-  background-color: seagreen;
+.slide-item {
+  display: block;
+  width: 100%;
 }
-.slide:nth-child(4) {
-  background-color: peru;
+.slide-item img {
+  width: 100%;
+}
+.slide-title {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.slide-desc {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.slide-desc__link {
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: 500;
+  color: purple;
 }/*# sourceMappingURL=main.css.map */
