@@ -37,11 +37,6 @@ for (let i = 0; i < 3; i++) {
       opacity: 1,
       backgroundImage: 'linear-gradient(90deg, rgba(60,54,138,1) 0%, rgba(165,52,184,1) 48%, rgba(78,182,203,1) 99%)',
     })
-    // .to(currentAnimateElem, 0.3, {
-    //   ease: Linear.easeNone,
-    //   opacity: 0.7,
-    //   backgroundImage: 'linear-gradient(90deg, rgba(25,20,84,1) 0%, rgba(105,9,121,1) 35%, rgba(0,212,255,1) 100%)',
-    // }, "+=0.3")
     .to(currentAnimateElem, 0.3, {
       ease: Linear.easeNone,
       opacity: 0,
