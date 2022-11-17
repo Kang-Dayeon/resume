@@ -44,6 +44,9 @@ background: linear-gradient(142deg, rgba(177,242,255,1) 0%, rgba(195,193,255,1) 
         overflow: hidden;
         height: 100vh;
     }
+    &-contact{
+        height: 100vh;
+    }
 }
 .scroll{
     &-wrap{
@@ -170,5 +173,10 @@ background: linear-gradient(142deg, rgba(177,242,255,1) 0%, rgba(195,193,255,1) 
             font-weight: 500;
             color: purple;
         }
+    }
+}
+.contact{
+    &-content{
+        padding: 30px;
     }
 }

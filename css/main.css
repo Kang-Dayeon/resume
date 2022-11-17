@@ -54,6 +54,9 @@ body {
   overflow: hidden;
   height: 100vh;
 }
+.section-contact {
+  height: 100vh;
+}
 
 .scroll-wrap {
   height: 2000px;
@@ -179,4 +182,8 @@ body {
   display: inline-block;
   font-weight: 500;
   color: purple;
+}
+
+.contact-content {
+  padding: 30px;
 }/*# sourceMappingURL=main.css.map */
