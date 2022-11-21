@@ -132,11 +132,9 @@ background: linear-gradient(142deg, rgba(177,242,255,1) 0%, rgba(195,193,255,1) 
 .slide{
     display: flex;
     align-items: center;
-    // justify-content: space-around;
     padding: 0 100px;
     width: auto;
     height: 100vh;
-    // background-color: cadetblue;
     &-list{
         margin-left: 300px;
         padding: 30px;
@@ -160,13 +158,11 @@ background: linear-gradient(142deg, rgba(177,242,255,1) 0%, rgba(195,193,255,1) 
         margin-top: 10px;
         font-size: 24px;
         font-weight: 500;
-        // color: #ffffff;
     }
     &-desc{
         margin-top: 15px;
         font-size: 18px;
         font-weight: 400;
-        // color: #ffffff;
         &__link{
             margin-top: 5px;
             display: inline-block;
@@ -178,5 +174,13 @@ background: linear-gradient(142deg, rgba(177,242,255,1) 0%, rgba(195,193,255,1) 
 .contact{
     &-content{
         padding: 30px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .slide{
+        &-list{
+            width: 500px;
+        }
     }
 }
