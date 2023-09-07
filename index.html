@@ -7,45 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dada Portfolio</title>
     <link href="./css/main.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> -->
 </head>
 
 <body>
+    <div class="top"></div>
     <div class="wrap">
-        <section class="section section-intro">
-            <div class="profile"><img src="./images/dy_icon.png" alt="나의 이모지 이미지"></div>
-            <div class="flow-wrap">
-                <div class="flow-box">Hello! welcome to my portfolio!! plese enjoy</div>
-                <div class="flow-box">Hello! welcome to my portfolio!! plese enjoy</div>
-                <div class="flow-box">Hello! welcome to my portfolio!! plese enjoy</div>
-                <div class="flow-box">Hello! welcome to my portfolio!! plese enjoy</div>
-                <div class="flow-box">Hello! welcome to my portfolio!! plese enjoy</div>
+        <div class="section flex-center bg1">
+            <input class="name-input active" type="text" placeholder="Write Your Name & Enter">
+            <div class="message">
+                <div class="profile"><img src="./images/dy_icon.png" alt="나의 이모지 이미지"></div>
+                <h1>Hello <span class="user-name"></span> 🖐</h1>
+                <h1>Welcome to my Project 🚀</h1>
             </div>
-        </section>
-        <section class="section section-introduce">
+            <div class="scroll">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+              </svg>
+              <p>Scolling!</p>
+            </div>
+        </div>
+        <div class="section section-introduce">
             <div class="scroll-wrap">
                 <div class="trigger_01"></div>
-                <div class="scroll-text animate_01">안녕하세요! 실시간 성장중인 개발자 강다연입니다.</div>
+                <div class="scroll-text animate_01">
+                    こんにちは！<br>
+                    <u>リアルタイム成長している</u>ジュニアエンジニアカンダヨンです。
+                </div>
             </div>
             <div class="scroll-wrap">
                 <div class="trigger_02"></div>
                 <div class="scroll-text animate_02">
-                    처음엔 호기심과 흥미로 시작했지만 비전공자의 껍질을 벗고, 프로 개발자로 성장하기 위해 책을 통해 Javascript
-                    기본기와 CS에 관한 지식을 쌓으며 현재는 웹의 흐름을 이해하고, Javascript를 활용하여 웹 사이트에서 자주 사용되는 기능을 구현 할 수 있습니다.
+                    私はフロントエンドのスキルを深めているジュニアエンジニアです。<br>
+                    バックエンドにも興味があり、分野を広げるために勉強しており、ネットワークやデータなどのコンピュータの知識を広げています。<br>
+                    新しい計画と挑戦によって成長することが自分の最大の原動力です。
                 </div>
             </div>
-            <div class="scroll-wrap">
-                <div class="trigger_03"></div>
-                <div class="scroll-text animate_03">
-                    🛠 My Tech Stacks 🛠 <br>
+        </div>
+        <div class="section section-stack">
+            <div class="content" data-aos="fade-up" data-aos-duration="2000">
+                <h4 class="mt-5 fw-bold text-light">My Tech Stacks is..</h4>
+                <div class="mt-3">
                     <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
                     <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
                     <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
+                    <br>
                     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
                     <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=Three.js&logoColor=white"/>
                     <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
@@ -53,141 +71,162 @@
                     <img src="https://img.shields.io/badge/styled-components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
                 </div>
             </div>
-        </section>
-        <section class="section section-project">
-
-
-            <div class="outer-wrap">
-                <div class="wrapper">
-                    <div class="row-cols-md-3 slide gap-2">
-                        <div class="col" style="margin-right: 80px;">
-                            <div class="card text-bg-light border-light">
-                                <div class="card-header">Memorize VOCA</div>
-                                <img src="./images/voca.gif" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">💡 Memorize VOCA is made to learn English vocabulary. You can learn vocabulary by level in the category and test the learned vocabulary.</p>
-                                    <h5 class="card-title">🛠 Stacks</h5>
-                                    <p class="card-text">
-                                        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
-                                    </p>
-                                    <a target="_blank" href="https://github.com/Kang-Dayeon/memorize-voca" class="btn btn-primary">Github</a>
-                                    <a target="_blank" href="https://kang-dayeon.github.io/memorize-voca/#/sign-in" class="btn btn-primary">Page</a>
-                                </div>
+            <div class="svg-wrap">
+                <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                      <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                        <stop id="stop1" stop-color="rgba(189, 222, 228, 1)" offset="0%"></stop>
+                        <stop id="stop2" stop-color="rgba(151, 156, 234, 1)" offset="100%"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#sw-gradient)"
+                      d="M20.5,-25.9C24.9,-20.7,25.6,-12.7,25.6,-5.6C25.6,1.5,24.8,7.7,22.2,13.4C19.6,19.1,15.2,24.4,8.9,28.4C2.6,32.4,-5.5,35,-12.8,33.3C-20.1,31.5,-26.6,25.3,-31.5,17.7C-36.4,10.2,-39.9,1.3,-37.3,-5.4C-34.7,-12,-26,-16.4,-18.8,-21C-11.6,-25.6,-5.8,-30.5,1.1,-31.9C8,-33.2,16.1,-31,20.5,-25.9Z"
+                      width="100%" height="100%" transform="translate(50 50)" stroke-width="0"
+                      style="transition: all 0.3s ease 0s;">
+                      <animate repeatCount="indefinite" attributeName="d" dur="3s" attributeType="XML" values="
+                      M20.3,-25.7C26.1,-19.3,30.4,-12.7,30.4,-6.4C30.3,0,25.8,6.2,21.7,11.9C17.6,17.6,13.9,22.8,7.9,27.3C2,31.9,-6.2,35.8,-12.1,33.5C-17.9,31.3,-21.4,22.8,-26.1,14.9C-30.9,7.1,-36.8,-0.2,-37.6,-8.5C-38.3,-16.7,-33.9,-25.9,-26.8,-32.1C-19.6,-38.2,-9.8,-41.3,-1.3,-39.8C7.3,-38.2,14.5,-32.1,20.3,-25.7Z;
+                      M16.2,-20.6C19.2,-16.8,18.6,-10,21.7,-2.4C24.7,5.2,31.3,13.5,30.5,20.1C29.7,26.6,21.4,31.3,13,33.3C4.7,35.2,-3.8,34.4,-9.2,30.3C-14.7,26.2,-17.2,18.8,-21.2,12.1C-25.3,5.4,-30.9,-0.5,-32.6,-8.3C-34.3,-16.2,-32.1,-25.9,-26,-29.2C-19.9,-32.5,-10,-29.3,-1.7,-27.3C6.6,-25.3,13.2,-24.4,16.2,-20.6Z;
+                      M20.3,-25.7C26.1,-19.3,30.4,-12.7,30.4,-6.4C30.3,0,25.8,6.2,21.7,11.9C17.6,17.6,13.9,22.8,7.9,27.3C2,31.9,-6.2,35.8,-12.1,33.5C-17.9,31.3,-21.4,22.8,-26.1,14.9C-30.9,7.1,-36.8,-0.2,-37.6,-8.5C-38.3,-16.7,-33.9,-25.9,-26.8,-32.1C-19.6,-38.2,-9.8,-41.3,-1.3,-39.8C7.3,-38.2,14.5,-32.1,20.3,-25.7Z;
+                        ">
+                      </animate>
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="section section-info">
+            <h2 class="title text-center fw-bold text-light mt-5"
+                data-aos="fade-right"
+                data-aos-duration="1000">
+                Infomation
+            </h2>
+            <div class="content">
+                <div class="profile">
+                    <img src="./images/dy_icon.png" alt="나의 이모지 이미지">
+                </div>
+                <ul class="info-list">
+                    <li><a class="btn btn-outline-light" target="_blank" href="https://github.com/Kang-Dayeon">GITHUB</a></li>
+                    <li class="mt-3"><a class="btn btn-outline-light" target="_blank" href="https://kdy-log.tistory.com/">BLOG</a></li>
+                    <li class="mt-3"><a class="btn btn-outline-light" target="_blank" href="./file/履歴書-カンダヨン.pdf" download="履歴書-カンダヨン">RESUME</a></li>
+                    <li class="mt-3"><a class="btn btn-outline-light" target="_blank" href="./file/職務経歴書-カンダヨン.pdf" download="職務経歴書-カンダヨン">Career History</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section section-project" id="mouseStart">
+            <h2 class="title text-center fw-bold text-light"
+                data-aos="fade-left"
+                data-aos-duration="1000">
+                Project
+            </h2>
+            <div class="swiper mySwiper mt-5">
+                <div class="swiper-wrapper">
+                    <div class="card text-bg-light border-light swiper-slide">
+                        <h5 class="card-header fw-bold text-primary-text-secondary">Memorize VOCA 📚</h5>
+                        <img src="./images/voca.gif" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text">💡 Memorize VOCA は英語の語彙を学習するために作られています。カテゴリ内のレベル別に語彙を学習し、学習した語彙をテストすることができます。</p>
+                            <h5 class="card-title mt-5">🛠 Stacks</h5>
+                            <p class="card-text">
+                                <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
+                            </p>
+                            <div class="mt-3 d-grid gap-2">
+                                <a target="_blank" href="https://github.com/Kang-Dayeon/memorize-voca" class="btn btn-outline-secondary">Github</a>
+                                <a target="_blank" href="https://kang-dayeon.github.io/memorize-voca/#/sign-in" class="btn btn-outline-secondary">Page</a>
                             </div>
                         </div>
-                        <div class="col" style="margin-right: 80px;">
-                            <div class="card text-bg-light border-light">
-                                <div class="card-header">Cat Maker</div>
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">💡 Grow a cat by feeding it and exercising it!</p>
-                                    <h5 class="card-title">🛠 Stacks</h5>
-                                    <p class="card-text">
-                                        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
-                                    </p>
-                                    <a target="_blank" href="https://github.com/Kang-Dayeon/cat_maker" class="btn btn-primary">Github</a>
-                                    <a target="_blank" href="https://kang-dayeon.github.io/cat_maker/" class="btn btn-primary">Page</a>
-                                </div>
+                    </div>
+                    <div class="card text-bg-light border-light swiper-slide">
+                        <h5 class="card-header fw-bold text-secondary">Cat Maker 🐱</h5>
+                        <img src="./images/catmaker.gif" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text">💡 猫に餌をあげて運動させて成長させましょう！</p>
+                            <h5 class="card-title mt-5">🛠 Stacks</h5>
+                            <p class="card-text">
+                                <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
+                            </p>
+                            <div class="mt-3 d-grid gap-2">
+                                <a target="_blank" href="https://github.com/Kang-Dayeon/cat_maker" class="btn btn-outline-secondary">Github</a>
+                                <a target="_blank" href="https://kang-dayeon.github.io/cat_maker/" class="btn btn-outline-secondary">Page</a>
                             </div>
                         </div>
-                        <div class="col" style="margin-right: 80px;">
-                            <div class="card text-bg-light border-light">
-                                <div class="card-header">JJU Squid Game 🕹</div>
-                                <img src="./images/jju.gif" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">💡 three.js 라이브러리를 활용하여 넷플릭스 드라마 오징어 게임에 나오는 사다리게임을 만들어보았습니다.</p>
-                                    <h5 class="card-title">🛠 Stacks</h5>
-                                    <p class="card-text">
-                                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=Three.js&logoColor=white"/>
-                                    </p>
-                                    <a target="_blank" href="https://github.com/Kang-Dayeon/jju_squid_game" class="btn btn-primary">Github</a>
-                                    <a target="_blank" href="https://kang-dayeon.github.io/jju_sauid_game_page/" class="btn btn-primary">Page</a>
-                                </div>
+                    </div>
+                    <div class="card text-bg-light border-light swiper-slide">
+                        <h5 class="card-header fw-bold text-secondary">JJU Squid Game 🕹</h5>
+                        <img src="./images/jju.gif" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text">💡 three.jsライブラリを活用して、Netflixドラマイカゲームに出てくるはしごゲームを作ってみました。</p>
+                            <h5 class="card-title mt-5">🛠 Stacks</h5>
+                            <p class="card-text">
+                                <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=Three.js&logoColor=white"/>
+                            </p>
+                            <div class="mt-3 d-grid gap-2">
+                                <a target="_blank" href="https://github.com/Kang-Dayeon/jju_squid_game" class="btn btn-outline-secondary">Github</a>
+                                <a target="_blank" href="https://kang-dayeon.github.io/jju_sauid_game_page/" class="btn btn-outline-secondary">Page</a>
                             </div>
                         </div>
-                        <div class="col" style="margin-right: 80px;">
-                            <div class="card text-bg-light border-light">
-                                <div class="card-header">We are connected app 💫</div>
-                                <img src="./images/connected.png" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">💡 node.js를 활용하여 만든 자유롭게 자신의 아이디어를 공유할 수 있는 앱입니다.</p>
-                                    <h5 class="card-title">🛠 Stacks</h5>
-                                    <p class="card-text">
-                                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/express-000000?style=flat-square&logo=express&logoColor=white"/>
-                                    </p>
-                                    <a target="_blank" href="https://github.com/Kang-Dayeon/We-are-connected_app" class="btn btn-primary">Github</a>
-                                </div>
+                    </div>
+                    <div class="card text-bg-light border-light swiper-slide">
+                        <h5 class="card-header fw-bold text-secondary">We are connected app 💫</h5>
+                        <img src="./images/connected.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text">💡 node.jsを活用して作成した自由に自分のアイデアを共有できる掲示板アプリです。</p>
+                            <h5 class="card-title mt-5">🛠 Stacks</h5>
+                            <p class="card-text">
+                                <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/express-000000?style=flat-square&logo=express&logoColor=white"/>
+                            </p>
+                            <div class="mt-3 d-grid gap-2">
+                                <a target="_blank" href="https://github.com/Kang-Dayeon/We-are-connected_app" class="btn btn-outline-secondary">Github</a>
                             </div>
                         </div>
-                        <div class="col" style="margin-right: 80px;">
-                            <div class="card text-bg-light border-light">
-                                <div class="card-header">dyProject 💜</div>
-                                <img src="./images/dyproject.gif" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">💡 다양한 라이브러리를 활용하여 만든 페이지입니다.
-                                        CSS,SVG,AOS,Javascript,jQuery,TweenMax,Three.js를 활용하여 동적인 페이지를만들어 사용자에게 재미있는 경험을 제공합니다.
-                                    </p>
-                                    <h5 class="card-title">🛠 Stacks</h5>
-                                    <p class="card-text">
-                                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=Three.js&logoColor=white"/>
-                                    </p>
-                                    <a target="_blank" href="https://github.com/Kang-Dayeon/dyProject" class="btn btn-primary">Github</a>
-                                    <a target="_blank" href="https://kang-dayeon.github.io/dyProject/" class="btn btn-primary">Page</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col" style="margin-right: 80px;">
-                            <div class="card text-bg-light border-light">
-                                <div class="card-header">Library 🗂</div>
-                                <img src="./images/library.png" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <p class="card-text">💡 자주 쓰이는 기능들을 html,css,javascript만으로 만든 라이브러리입니다.</p>
-                                    <h5 class="card-title">🛠 Stacks</h5>
-                                    <p class="card-text">
-                                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-                                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-                                    </p>
-                                    <a target="_blank" href="https://github.com/Kang-Dayeon/library" class="btn btn-primary">Github</a>
-                                    <a target="_blank" href="https://kang-dayeon.github.io/library/" class="btn btn-primary">Page</a>
-                                </div>
+                    </div>
+                    <div class="card text-bg-light border-light swiper-slide">
+                        <h5 class="card-header fw-bold text-secondary">Library 🗂</h5>
+                        <img src="./images/library.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text">💡 よく使われる機能をhtml、css、javascriptだけで作ったライブラリです。</p>
+                            <h5 class="card-title mt-5">🛠 Stacks</h5>
+                            <p class="card-text">
+                                <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+                                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+                            </p>
+                            <div class="mt-3 d-grid gap-2">
+                                <a target="_blank" href="https://github.com/Kang-Dayeon/library" class="btn btn-outline-secondary">Github</a>
+                                <a target="_blank" href="https://kang-dayeon.github.io/library/" class="btn btn-outline-secondary">Page</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-        </section>
-
-        <section class="section section-contact">
+        </div>
+        <div class="section section-contact">
             <div class="contact-content">
-                <h2 class="title text-center fw-bold">Contact</h2>
+                <h2 class="title text-center fw-bold text-light" data-aos="fade-up">Contact</h2>
                 <form class="gform" method="POST" data-email="dksldiss89@gmail.com" action="https://script.google.com/macros/s/AKfycbwQzis-vXvN2qc0a085MZMHRL7unAqlvCi1JN5scILodoLtaC7ut2bfD0-7eXvH_2d3EA/exec">
                     <div class="container mt-5 form-elements">
                         <div class="row">
                             <div class="col">
-                                <label for="name" class="form-label fw-bold">Name</label>
+                                <label for="name" class="form-label fw-bold text-light">Name</label>
                                 <input type="text" id="name" name="name" class="form-control" placeholder="What your name?">
                             </div>
                             <div class="col">
-                                <label for="email" class="form-label fw-bold">Email</label>
+                                <label for="email" class="form-label fw-bold text-light">Email</label>
                                 <input type="text" id="email" name="email" class="form-control" placeholder="id@email.com">
                             </div>
                         </div>
                         <div class="mt-5">
-                            <label for="message" class="form-label fw-bold">Message</label>
+                            <label for="message" class="form-label fw-bold text-light">Message</label>
                             <textarea class="form-control" id="message" name="message" rows="10"></textarea>
                         </div>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
@@ -200,11 +239,41 @@
                     </div>
                 </form>
             </div>
-        </section>
-
+        </div>
     </div>
-    <script src="./js/main.js"></script>
+    
+    <!-- jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- scroll magic -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <!-- js -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <!-- email -->
     <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        loop: true,
+        spaceBetween: 100,
+        pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+    </script>
 
 </body>
 
