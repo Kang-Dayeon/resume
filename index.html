@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dada Portfolio</title>
     <link href="./css/main.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="shortcut icon" href="./images/favicon.ico">
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Link Swiper's CSS -->
@@ -25,8 +24,8 @@
             <input class="name-input active" type="text" placeholder="Write Your Name & Enter">
             <div class="message">
                 <div class="profile"><img src="./images/dy_icon.png" alt="나의 이모지 이미지"></div>
-                <h1>Hello <span class="user-name"></span> 🖐</h1>
-                <h1>Welcome to my Project 🚀</h1>
+                <h3>Hello <span class="user-name"></span> 🖐</h3>
+                <h3>Welcome to dada homepage! 🚀</h3>
             </div>
             <div class="scroll">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
@@ -59,16 +58,18 @@
         <div class="section section-stack">
             <div class="content" data-aos="fade-up" data-aos-duration="2000">
                 <h4 class="mt-5 fw-bold text-light">My Tech Stacks is..</h4>
-                <div class="mt-3">
-                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-                    <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
-                    <br>
-                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-                    <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=Three.js&logoColor=white"/>
-                    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
-                    <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
-                    <img src="https://img.shields.io/badge/styled-components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
+                <div class="mt-4">
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"/>
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/>
+                    <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white"/>
+                    <br><br>
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
+                    <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=Three.js&logoColor=white"/>
+                    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
+                    <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white"/>
+                    <br><br>
+                    <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
+                    <img src="https://img.shields.io/badge/gulp-CF4647?style=for-the-badge&logo=gulp&logoColor=white"/>
                 </div>
             </div>
             <div class="svg-wrap">
@@ -106,7 +107,7 @@
                 <ul class="info-list">
                     <li><a class="btn btn-outline-light" target="_blank" href="https://github.com/Kang-Dayeon">GITHUB</a></li>
                     <li class="mt-3"><a class="btn btn-outline-light" target="_blank" href="https://kdy-log.tistory.com/">BLOG</a></li>
-                    <li class="mt-3"><a class="btn btn-outline-light" target="_blank" href="./file/履歴書-カンダヨン.pdf" download="履歴書-カンダヨン">RESUME</a></li>
+                    <li class="mt-3"><a class="btn btn-outline-light" target="_blank" href="./file/履歴書-カンダヨン.pdf" download="履歴書-カンダヨン">RESUME</a></li>
                     <li class="mt-3"><a class="btn btn-outline-light" target="_blank" href="./file/職務経歴書-カンダヨン.pdf" download="職務経歴書-カンダヨン">Career History</a></li>
                 </ul>
             </div>
@@ -218,16 +219,16 @@
                         <div class="row">
                             <div class="col">
                                 <label for="name" class="form-label fw-bold text-light">Name</label>
-                                <input type="text" id="name" name="name" class="form-control" placeholder="What your name?">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="What your name?" required>
                             </div>
                             <div class="col">
                                 <label for="email" class="form-label fw-bold text-light">Email</label>
-                                <input type="text" id="email" name="email" class="form-control" placeholder="id@email.com">
+                                <input type="text" id="email" name="email" class="form-control" placeholder="id@email.com" required>
                             </div>
                         </div>
                         <div class="mt-5">
                             <label for="message" class="form-label fw-bold text-light">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="10"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="10" required></textarea>
                         </div>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
                             <button class="btn btn-outline-light">Send Message</button>
@@ -235,7 +236,7 @@
                     </div>
 
                     <div class="thankyou_message mt-5 text-center" style="display:none;">
-                        <h4 class="fw-bold"><em>Thanks for contacting us!<br>We will get back to you soon!</em></h4>
+                        <h4 class="fw-bold text-light">Thanks for contacting us!<br><br>We will get back to you soon!</h4>
                     </div>
                 </form>
             </div>
@@ -264,10 +265,6 @@
         centeredSlides: true,
         loop: true,
         spaceBetween: 100,
-        pagination: {
-            el: ".swiper-pagination",
-            type: "fraction",
-        },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
