@@ -77,17 +77,6 @@ ul,ol,li{
     list-style: none;
 }
 
-/*body{*/
-/*    &::-webkit-scrollbar{*/
-/*      display: none;*/
-/*    }*/
-/*}*/
-/* 
-// body{
-//     background: rgb(255,173,247);
-//     background: linear-gradient(217deg, rgba(255,173,247,1) 0%, rgba(156,194,244,1) 25%, rgba(136,142,238,1) 49%, rgba(149,78,209,1) 70%, rgba(74,26,128,1) 98%);
-// } */
-
 canvas{
     display: block;
 }
@@ -229,7 +218,7 @@ canvas{
     background-attachment: fixed;
 }
 
-.swiper .swiper-button-next, 
+.swiper .swiper-button-next,
 .swiper .swiper-button-prev{
   color: #fff;
 }
